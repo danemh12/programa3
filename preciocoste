@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+int main (){
+	
+	float precio_neto, precio_coste, margen;
+	printf("dame el precio de coste \n");
+	scanf("%f",&precio_coste);
+	printf ("dame el margen \n");
+	scanf("%f",&margen);
+	
+	precio_neto=precio_coste*(100+margen)/100;
+	
+	printf("el precio neto del producto es %f euros\n", precio_neto);
+	
+}
